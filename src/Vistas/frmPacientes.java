@@ -32,10 +32,10 @@ public class frmPacientes extends javax.swing.JDialog {
         jLabel2 = new javax.swing.JLabel();
         txtApellido = new javax.swing.JTextField();
         txtNombre = new javax.swing.JTextField();
-        btnAgregarMedico1 = new javax.swing.JButton();
-        btnListaMedico1 = new javax.swing.JButton();
-        btnListaMedico2 = new javax.swing.JButton();
-        btnAgregarMedico2 = new javax.swing.JButton();
+        btnAgregarMedicoPrimero = new javax.swing.JButton();
+        btnListaMedicoPrimero = new javax.swing.JButton();
+        btnListaMedicoSegundo = new javax.swing.JButton();
+        btnAgregarMedicoSegundo = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -43,13 +43,13 @@ public class frmPacientes extends javax.swing.JDialog {
 
         jLabel2.setText("Nombre");
 
-        btnAgregarMedico1.setText("Agregar Paciente Al Medico 1");
+        btnAgregarMedicoPrimero.setText("Agregar Paciente Al Medico 1");
 
-        btnListaMedico1.setText("Lista Pacientes Medico 1");
+        btnListaMedicoPrimero.setText("Lista Pacientes Medico 1");
 
-        btnListaMedico2.setText("Lista Pacientes Medico 2");
+        btnListaMedicoSegundo.setText("Lista Pacientes Medico 2");
 
-        btnAgregarMedico2.setText("Agregar Paciente Al Medico 2");
+        btnAgregarMedicoSegundo.setText("Agregar Paciente Al Medico 2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -69,14 +69,14 @@ public class frmPacientes extends javax.swing.JDialog {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(btnAgregarMedico1)
+                        .addComponent(btnAgregarMedicoPrimero)
                         .addGap(26, 26, 26))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(btnListaMedico1)
+                        .addComponent(btnListaMedicoPrimero)
                         .addGap(31, 31, 31)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnAgregarMedico2)
-                    .addComponent(btnListaMedico2))
+                    .addComponent(btnAgregarMedicoSegundo)
+                    .addComponent(btnListaMedicoSegundo))
                 .addGap(32, 32, 32))
         );
         layout.setVerticalGroup(
@@ -92,12 +92,12 @@ public class frmPacientes extends javax.swing.JDialog {
                     .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAgregarMedico1)
-                    .addComponent(btnAgregarMedico2))
+                    .addComponent(btnAgregarMedicoPrimero)
+                    .addComponent(btnAgregarMedicoSegundo))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 59, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnListaMedico1)
-                    .addComponent(btnListaMedico2))
+                    .addComponent(btnListaMedicoPrimero)
+                    .addComponent(btnListaMedicoSegundo))
                 .addGap(95, 95, 95))
         );
 
@@ -148,10 +148,10 @@ public class frmPacientes extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton btnAgregarMedico1;
-    public javax.swing.JButton btnAgregarMedico2;
-    public javax.swing.JButton btnListaMedico1;
-    public javax.swing.JButton btnListaMedico2;
+    public javax.swing.JButton btnAgregarMedicoPrimero;
+    public javax.swing.JButton btnAgregarMedicoSegundo;
+    public javax.swing.JButton btnListaMedicoPrimero;
+    public javax.swing.JButton btnListaMedicoSegundo;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     public javax.swing.JTextField txtApellido;

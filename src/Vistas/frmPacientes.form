@@ -40,17 +40,17 @@
               <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="btnAgregarMedico1" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnAgregarMedicoPrimero" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="btnListaMedico1" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnListaMedicoPrimero" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnAgregarMedico2" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnListaMedico2" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAgregarMedicoSegundo" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnListaMedicoSegundo" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
           </Group>
@@ -71,13 +71,13 @@
               </Group>
               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnAgregarMedico1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnAgregarMedico2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAgregarMedicoPrimero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAgregarMedicoSegundo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="59" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnListaMedico1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnListaMedico2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnListaMedicoPrimero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnListaMedicoSegundo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
           </Group>
@@ -105,7 +105,7 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="btnAgregarMedico1">
+    <Component class="javax.swing.JButton" name="btnAgregarMedicoPrimero">
       <Properties>
         <Property name="text" type="java.lang.String" value="Agregar Paciente Al Medico 1"/>
       </Properties>
@@ -113,7 +113,7 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="btnListaMedico1">
+    <Component class="javax.swing.JButton" name="btnListaMedicoPrimero">
       <Properties>
         <Property name="text" type="java.lang.String" value="Lista Pacientes Medico 1"/>
       </Properties>
@@ -121,7 +121,7 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="btnListaMedico2">
+    <Component class="javax.swing.JButton" name="btnListaMedicoSegundo">
       <Properties>
         <Property name="text" type="java.lang.String" value="Lista Pacientes Medico 2"/>
       </Properties>
@@ -129,7 +129,7 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="btnAgregarMedico2">
+    <Component class="javax.swing.JButton" name="btnAgregarMedicoSegundo">
       <Properties>
         <Property name="text" type="java.lang.String" value="Agregar Paciente Al Medico 2"/>
       </Properties>

@@ -29,15 +29,15 @@ public class frmVistaMedicos2 extends javax.swing.JDialog {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        txtListaMedico2 = new javax.swing.JTextArea();
+        txtListaMedicoSegundo = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
         btnAtenderPaciente = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        txtListaMedico2.setColumns(20);
-        txtListaMedico2.setRows(5);
-        jScrollPane1.setViewportView(txtListaMedico2);
+        txtListaMedicoSegundo.setColumns(20);
+        txtListaMedicoSegundo.setRows(5);
+        jScrollPane1.setViewportView(txtListaMedicoSegundo);
 
         jLabel1.setText("LISTA PACIENTES DEL MEDICO 2");
 
@@ -122,6 +122,6 @@ public class frmVistaMedicos2 extends javax.swing.JDialog {
     public javax.swing.JButton btnAtenderPaciente;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
-    public javax.swing.JTextArea txtListaMedico2;
+    public javax.swing.JTextArea txtListaMedicoSegundo;
     // End of variables declaration//GEN-END:variables
 }
