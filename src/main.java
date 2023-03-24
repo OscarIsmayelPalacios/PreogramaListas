@@ -17,7 +17,7 @@ public class main {
         modeloPacientesSegundo modeloSegundoVistas = new modeloPacientesSegundo();
         
         controllerPacientes controladorLista = new controllerPacientes(VistaPacientes, VistaMedico1, VistaMedico2,
-                modeloVistas, modeloSegundoVistas);
+        modeloVistas, modeloSegundoVistas);
     }
     
 }
