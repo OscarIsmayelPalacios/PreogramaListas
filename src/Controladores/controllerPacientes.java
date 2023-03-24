@@ -20,7 +20,8 @@ public class controllerPacientes implements ActionListener {
     modeloPacientes ModeloPacientes;
     modeloPacientesSegundo ModeloPacientesSegundo;
 
-    public controllerPacientes(frmPacientes VistaPacientes, frmVistaMedico1 VistaMedico1, frmVistaMedicos2 VistaMedico2, modeloPacientes ModeloPacientes, modeloPacientesSegundo ModeloPacientesSegundo) {
+    public controllerPacientes(frmPacientes VistaPacientes, frmVistaMedico1 VistaMedico1, frmVistaMedicos2 VistaMedico2,
+            modeloPacientes ModeloPacientes, modeloPacientesSegundo ModeloPacientesSegundo) {
         this.VistaPacientes = VistaPacientes;
         this.VistaMedico1 = VistaMedico1;
         this.VistaMedico2 = VistaMedico2;
@@ -76,10 +77,27 @@ public class controllerPacientes implements ActionListener {
         
         if(e.getSource() == this.VistaPacientes.btnListaMedicoPrimero)
         {
-            
             this.VistaMedico1.setLocationRelativeTo(null);
             this.VistaMedico1.setVisible(true);
-
+        }
+        
+        if(e.getSource() == this.VistaMedico1.btnAtenderPaciente)
+        {
+            this.ModeloPacientes.EliminarPaciente();
+            
+            this.ModeloPacientes.MedicoPacientePrimero(this.VistaPacientes.txtApellido.getText(),
+            this.VistaPacientes.txtNombre.getText());
+            
+            Queue<Pacientes> listalocal = this.ModeloPacientes.ListarPacientes();
+            
+            String cadena = " ";
+            for(Pacientes modeloPacientes: listalocal)
+            {
+                cadena = cadena + modeloPacientes.getApellido()+" "+modeloPacientes.getNombre()+"\n"; 
+                this.VistaMedico1.txtListaMedicoPrimero.setText(cadena);
+            }
+ 
+     
         }
         
         if(e.getSource() == this.VistaPacientes.btnListaMedicoSegundo)

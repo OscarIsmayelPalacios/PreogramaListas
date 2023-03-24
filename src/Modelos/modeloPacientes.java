@@ -22,4 +22,10 @@ public class modeloPacientes {
         return this.ListaPacientes;
     }
      
+    public void EliminarPaciente()
+    {
+        this.ListaPacientes.poll();
+        
+    }
+            
 }

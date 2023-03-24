@@ -6,7 +6,6 @@ import Vistas.frmPacientes;
 import Vistas.frmVistaMedico1;
 import Vistas.frmVistaMedicos2;
 
-
 public class main {
 
 
